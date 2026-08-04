@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-label="Aliana K9 Logo">
+  <!-- Left wings -->
+  <g fill="#A68B5B" opacity="0.85">
+    <path d="M15 130 C55 115, 110 110, 165 125 C140 118, 100 130, 70 150 C45 138, 25 135, 15 130Z"/>
+    <path d="M30 150 C75 138, 125 135, 175 148 C148 142, 108 155, 82 172 C58 158, 38 155, 30 150Z" opacity="0.7"/>
+    <path d="M8 112 C50 100, 100 102, 155 118 C130 108, 95 118, 72 135 C48 125, 22 118, 8 112Z" opacity="0.5"/>
+  </g>
+
+  <!-- Right wings -->
+  <g fill="#A68B5B" opacity="0.85">
+    <path d="M885 130 C845 115, 790 110, 735 125 C760 118, 800 130, 830 150 C855 138, 875 135, 885 130Z"/>
+    <path d="M870 150 C825 138, 775 135, 725 148 C752 142, 792 155, 818 172 C842 158, 862 155, 870 150Z" opacity="0.7"/>
+    <path d="M892 112 C850 100, 800 102, 745 118 C770 108, 805 118, 828 135 C852 125, 878 118, 892 112Z" opacity="0.5"/>
+  </g>
+
+  <!-- Dog (cleaner silhouette) -->
+  <g transform="translate(400, 5)">
+    <!-- Body -->
+    <path fill="#FFFFFF" d="
+      M 35 85
+      C 40 50, 70 28, 105 25
+      C 120 24, 132 32, 138 48
+      C 145 38, 162 35, 172 48
+      C 180 60, 175 78, 162 88
+      L 155 115
+      C 168 125, 175 150, 168 172
+      L 160 195
+      C 156 205, 142 208, 132 198
+      L 115 178
+      L 100 198
+      C 90 208, 75 205, 72 192
+      L 65 168
+      C 58 145, 62 122, 78 112
+      L 35 85 Z"/>
+    <!-- Head -->
+    <path fill="#FFFFFF" d="
+      M 105 25
+      C 110 5, 130 -5, 150 5
+      C 165 12, 170 30, 165 45
+      C 155 38, 142 35, 138 48
+      C 130 30, 115 22, 105 25 Z"/>
+    <!-- Ears -->
+    <path fill="#FFFFFF" d="M 115 12 L 110 -10 L 125 10 Z"/>
+    <path fill="#FFFFFF" d="M 145 8 L 158 -12 L 160 15 Z"/>
+    <!-- Nose -->
+    <ellipse cx="162" cy="32" rx="7" ry="5" fill="#111"/>
+  </g>
+
+  <!-- Text: ALIANA K9 -->
+  <text x="450" y="185"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="74"
+        font-weight="500"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        letter-spacing="6">
+    ALIANA K9
+  </text>
+
+  <!-- Gold line -->
+  <line x1="190" y1="205" x2="710" y2="205" stroke="#C9A227" stroke-width="1.5"/>
+
+  <!-- Tagline -->
+  <text x="450" y="232"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="15.5"
+        fill="#C9A227"
+        text-anchor="middle"
+        letter-spacing="3.5">
+    OBEDIENCE  |  PROTECTION  |  BOARDING
+  </text>
+</svg>
