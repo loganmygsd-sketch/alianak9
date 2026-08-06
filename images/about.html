@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Aliana K9</title>
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header header-solid">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Aliana K9" class="logo-img">
+    </a>
+
+                        <nav class="nav">
+      <a href="services.html" class="nav-link">SERVICES</a>
+      <a href="about.html" class="nav-link active">ABOUT</a>
+      <a href="breeding.html" class="nav-link">BREEDING</a>
+      <a href="gallery.html" class="nav-link">GALLERY</a>
+      <a href="contact.html" class="nav-link">CONTACT</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- ABOUT HERO -->
+  <section class="about-hero">
+    <div class="about-hero-image">
+      <img src="images/about-hero.jpg" alt="Aliana with her black German Shepherd">
+    </div>
+    <div class="about-hero-content">
+      <p class="about-eyebrow">About</p>
+      <h1 class="about-title">Obedience is a mindset,<br>not a set of behaviours.</h1>
+      <p class="about-intro">
+        My approach is focused on cultivating the right attitude — calm, composed, cooperative and respectful in obedience; brave and resilient under pressure in protection.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <section class="about-content">
+    <div class="about-grid">
+      
+      <div class="about-block">
+        <h2>The Real Thing</h2>
+        <p>
+          At the core of my training philosophy lies a relentless pursuit of that which is true and real. The dog training industry is filled with deception and illusion — for the most part selling pseudo versions of the real thing.
+        </p>
+        <p>
+          After nearly a decade of exploration, trial, error, and a few very rough personal experiences, I’ve cut through the noise. I focus only on methods that generate real results: functional, practical, reliable, and lasting.
+        </p>
+      </div>
+
+      <div class="about-image-block">
+        <img src="images/about-portrait.jpg" alt="Black German Shepherd portrait">
+      </div>
+
+      <div class="about-image-block about-image-block--left">
+        <img src="images/about-walk.jpg" alt="Training walk in the field">
+      </div>
+
+      <div class="about-block">
+        <h2>Clients First</h2>
+        <p>
+          My clients’ happiness is my success. I consider it my responsibility to care for, and ensure the success of, both two-legged and four-legged clients.
+        </p>
+        <p>
+          Their trust in me is a gift. I am privileged to be in a position that allows me to empower owners, strengthen the owner-dog relationship, and support life-changing transformations.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Closing statement -->
+    <div class="about-closing">
+      <p>
+        While my background includes formal training and education, I choose not to list credentials here. The truly valuable knowledge was gained through experience, the willingness to challenge the norm, the courage for self-honesty, and a dedication to constant improvement.
+      </p>
+      <p class="about-closing-strong">
+        The proof is in the work. The results speak for themselves.
+      </p>
+    </div>
+  </section>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      toggle.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Aliana K9</title>
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header header-solid">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Aliana K9" class="logo-img">
+    </a>
+
+            <nav class="nav">
+      <a href="services.html" class="nav-link">SERVICES</a>
+      <a href="about.html" class="nav-link">ABOUT</a>
+      <a href="breeding.html" class="nav-link">BREEDING</a>
+      <a href="gallery.html" class="nav-link active">GALLERY</a>
+      <a href="contact.html" class="nav-link">CONTACT</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- INTRO -->
+  <section class="page-intro">
+    <p class="about-eyebrow">Gallery</p>
+    <h1 class="page-title">The work in action</h1>
+    <p class="page-subtitle">A selection of dogs trained in obedience and protection.</p>
+  </section>
+
+  <!-- OBEDIENCE -->
+  <section class="gallery-section">
+    <div class="gallery-inner">
+      <p class="about-eyebrow">Obedience</p>
+      <h2 class="gallery-heading">Calm. Clear. Reliable.</h2>
+
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/GWLqxVm_E0M" title="Mila – Obedience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Mila</p>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/WesXxj-6oh4" title="Isla – Obedience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Isla</p>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/FQocVPtJMwo" title="Thor – Obedience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Thor</p>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/nPTU072wtXs" title="Kali – Obedience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Kali</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROTECTION -->
+  <section class="gallery-section gallery-section--alt">
+    <div class="gallery-inner">
+      <p class="about-eyebrow">Protection</p>
+      <h2 class="gallery-heading">Serious. Civil. Controlled.</h2>
+
+      <div class="video-grid">
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/bjdnAGwf91w" title="Lucky – Protection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Lucky</p>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/-EZ-5mHbNo4" title="Loki – Protection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Loki</p>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/Wo1Rm5PBD50" title="Isla – Protection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Isla</p>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/xfP6aWCavog" title="Diesel – Protection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="video-title">Diesel</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      toggle.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
